@@ -2,6 +2,7 @@ package com.ecommerce.service.impl;
 
 import lombok.AllArgsConstructor;
 import com.ecommerce.entity.Product;
+import com.ecommerce.repository.CategoryRepository;
 import com.ecommerce.repository.ProductRepository;
 import com.ecommerce.service.ProductService;
 import org.apache.logging.log4j.util.Strings;
@@ -21,14 +22,18 @@ public class ProductServiceImpl implements ProductService {
 	 @Autowired
 	 private ProductRepository productRepository;
 
+	 @Autowired
+	    private CategoryRepository categoryRepository;
+
+
 	    @Override
 	    public Product createProduct(Product product) {
 	        return productRepository.save(product);
 	    }
 	    
 	    @Override
-	    public Product getProductById(Long productId) {
-	        Optional<Product> optionalProduct = productRepository.findById(productId);
+	    public Product getProductById(Long product_id) {
+	        Optional<Product> optionalProduct = productRepository.findById(product_id);
 	        return optionalProduct.get();
 	    }
 	    
@@ -39,15 +44,15 @@ public class ProductServiceImpl implements ProductService {
 	    
 	    @Override
 	    public Product updateProduct(Product product) {
-	        Product existingProduct = productRepository.findById(product.getId()).get();
-	        existingProduct.setProduct_name(product.getProduct_name());
+	        Product existingProduct = productRepository.findById(((Product) product).getProduct_id()).get();
+	        existingProduct.setName(product.getName());
 	        existingProduct.setPrice(product.getPrice());
 	        Product updatedProduct = productRepository.save(existingProduct);
 	        return updatedProduct;
 	    }
 	    
 	    @Override
-	    public void deleteProduct(Long productId) {
-	        productRepository.deleteById(productId);
+	    public void deleteProduct(Long product_id) {
+	        productRepository.deleteById(product_id);
 	    }
 }

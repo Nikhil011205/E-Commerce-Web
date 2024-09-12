@@ -19,16 +19,19 @@ public class CategoryController {
     @Autowired
     private CategoryService categoryService;
     
-
-    @GetMapping("/all")
+    // Build Get All Categories REST API
+    // http://localhost:8081/api/categories
+    @GetMapping("")
     public List<Category> getAllCategory() {
        return categoryService.getAllCategories();
         
     }
     
-    @GetMapping("{id}")
-    public ResponseEntity<Category> getcategoryById(@PathVariable("id") Long categoryId){
-        Category category = categoryService.getCategoryById(categoryId);
+    // Build Get Category by id REST API
+    // http://localhost:8081/api/categories/{id}
+    @GetMapping("{category_id}")
+    public ResponseEntity<Category> getcategoryById(@PathVariable("category_id") Long category_id){
+        Category category = categoryService.getCategoryById(category_id);
         return new ResponseEntity<Category>(category, HttpStatus.OK);
     }
         

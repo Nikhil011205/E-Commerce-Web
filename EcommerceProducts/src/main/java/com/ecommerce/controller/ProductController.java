@@ -28,15 +28,15 @@ public class ProductController {
     }
     
     // build get product by id REST API
-    // http://localhost:8080/api/products/1
-    @GetMapping("{id}")
-    public ResponseEntity<Product> getproductById(@PathVariable("id") Long productId){
-        Product product = productService.getProductById(productId);
+    // http://localhost:8081/api/products/1
+    @GetMapping("{product_id}")
+    public ResponseEntity<Product> getproductById(@PathVariable("product_id") Long product_id){
+        Product product = productService.getProductById(product_id);
         return new ResponseEntity<>(product, HttpStatus.OK);
     }
     
     // Build Get All Products REST API
-    // http://localhost:8080/api/products
+    // http://localhost:8081/api/products
     @GetMapping
     public ResponseEntity<List<Product>> getAllProducts(){
         List<Product> products = productService.getAllProducts();
@@ -44,20 +44,20 @@ public class ProductController {
     }
     
     // Build Update Product REST API
-    @PutMapping("{id}")
-    // http://localhost:8080/api/products/1
-    public ResponseEntity<Product> updateProduct(@PathVariable("id") Long productId,
+    @PutMapping("{product_id}")
+    // http://localhost:8081/api/products/1
+    public ResponseEntity<Product> updateProduct(@PathVariable("product_id") Long product_id,
                                            @RequestBody Product product){
-        product.setId(productId);
+        product.setProduct_id(product_id);
         Product updatedProduct = productService.updateProduct(product);
         return new ResponseEntity<>(updatedProduct, HttpStatus.OK);
     }
     
 
     // Build Delete Product REST API
-    @DeleteMapping("{id}")
-    public ResponseEntity<String> deleteProduct(@PathVariable("id") Long productId){
-        productService.deleteProduct(productId);
+    @DeleteMapping("{product_id}")
+    public ResponseEntity<String> deleteProduct(@PathVariable("product_id") Long product_id){
+        productService.deleteProduct(product_id);
         return new ResponseEntity<>("Product successfully deleted!", HttpStatus.OK);
     }
     

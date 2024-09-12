@@ -12,11 +12,11 @@ public interface ProductService {
  
 	Product createProduct(Product product);
 
-    Product getProductById(Long productId);
+    Product getProductById(Long product_id);
 
     List<Product> getAllProducts();
 
     Product updateProduct(Product product);
 
-    void deleteProduct(Long productId);
+    void deleteProduct(Long product_id);
 }

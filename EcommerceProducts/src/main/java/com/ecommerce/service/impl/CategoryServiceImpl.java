@@ -27,8 +27,8 @@ public class CategoryServiceImpl implements CategoryService {
 	        return categoryRepository.findAll();
 	    }
 
-	    public Category getCategoryById(Long id) {
-	    	 Optional<Category> optionalCategory = categoryRepository.findById(id);
+	    public Category getCategoryById(Long category_id) {
+	    	 Optional<Category> optionalCategory = categoryRepository.findById(category_id);
 		        return optionalCategory.get();
 	    }
 
@@ -37,7 +37,7 @@ public class CategoryServiceImpl implements CategoryService {
 	        return categoryRepository.save(category);
 	    }
 
-	    public void deleteCategory(Long id) {
-	        categoryRepository.deleteById(id);
+	    public void deleteCategory(Long category_id) {
+	        categoryRepository.deleteById(category_id);
 	    }
 }
