@@ -11,13 +11,11 @@ public class Category {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long category_id;
+    private Long id;
 
     @Column(nullable = false, unique = true)
     private String name;
-    
-    @Column(nullable = false, unique = true)
-    private String img_url;
+
    
     // Constructors, Getters, and Setters
     public Category() {}
@@ -27,11 +25,11 @@ public class Category {
     }
 
     public Long getId() {
-        return category_id;
+        return id;
     }
 
-    public void setId(Long category_id) {
-        this.category_id = category_id;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -40,14 +38,6 @@ public class Category {
 
     public void setName(String name) {
         this.name = name;
-    }
-    
-    public String getImgURL() {
-        return img_url;
-    }
-
-    public void setImgURL(String img_url) {
-        this.img_url = img_url;
     }
 
     

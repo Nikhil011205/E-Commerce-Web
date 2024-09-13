@@ -10,7 +10,7 @@
   <title>E-commerce</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="bod">
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -30,103 +30,10 @@
 
   <section id="categories" class="active">
     <h2 class="cat-head">Shop by Category</h2>
-    <div class="category-container">
-      <div class="category" onclick="showSection('mobiles')">
-        <img src="imgs/smartphone.png" alt="Mobiles" class="cat-img">
-        <p>Mobiles</p>
-      </div>
-      <div class="category" onclick="showSection('laptops')">
-        <img src="imgs/laptop.png" alt="Laptops" class="cat-img">
-        <p>Laptops</p>
-      </div>
-      <div class="category" onclick="showSection('clothing')">
-        <img src="imgs/clothing.png" alt="Clothing" class="cat-img">
-        <p>Clothing</p>
-      </div>
-      <div class="category" onclick="showSection('accessories')">
-        <img src="imgs/accessories.png" alt="Accessories" class="cat-img">
-        <p>Accessories</p>
-      </div>
-      <div class="category" onclick="showSection('tools')">
-        <img src="imgs/tools.png" alt="Tools" class="cat-img">
-        <p>Tools</p>
-      </div>
-
+    <div class="category-container" id="cat-container">
     </div>
   </section>
-
-  <section id="mobiles" class="hidden">
-    <div class="sec-head-cont">
-      <h2 class="sec-head">Mobiles</h2>
-      <button class="sec-button" onclick="showSection('categories')">Back to Categories</button>
-    </div>
-    <div class="product-container">
-      <div class="product" onclick="showProductDetails('iphone14')">
-        <img src="imgs/iphone-x.png" alt="iPhone 14">
-        <p>iPhone 14</p>
-        <p>Price: $999</p>
-      </div>
-      <div class="product" onclick="showProductDetails('oneplus10')">
-        <img src="imgs/phone.png" alt="OnePlus 10">
-        <p>OnePlus 10</p>
-        <p>Price: $749</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="laptops" class="hidden">
-    <div class="sec-head-cont">
-      <h2 class="sec-head">Laptops</h2>
-      <button class="sec-button" onclick="showSection('categories')">Back to Categories</button>
-    </div>
-  </section>
-
-  <section id="clothing" class="hidden">
-    <div class="sec-head-cont">
-      <h2 class="sec-head" class="sec-head">Clothing</h2>
-      <button class="sec-button" onclick="showSection('categories')">Back to Categories</button>
-    </div>
-  </section>
-
-  <section id="iphone14-details" class="hidden">
-    <div class="sec-head-cont">
-      <h2>iPhone 14 Details</h2>
-      <button class="sec-button" onclick="showSection('mobiles')">Back to Mobiles</button>
-    </div>
-    <div class="product-details">
-      <img src="imgs/iphone-x.png" alt="iPhone 14">
-      <div class="details">
-        <p>Price: $999</p>
-        <p>Storage: 128GB, 256GB</p>
-        <p>Battery: 3279mAh</p>
-        <p>Ratings: ⭐⭐⭐⭐⭐(4.8/5)</p>
-        <p>Description: The iPhone 14 offers high-end features like the A16 Bionic chip, a 6.1-inch Super Retina XDR display, and more.</p>
-        <button class="add-to-cart">Add to Cart</button>
-        <button class="buy-now">Buy Now</button>
-      </div>
-    </div>
-  </section>
-
-  <section id="oneplus10-details" class="hidden">
-    <div class="sec-head-cont">
-      <h2>OnePlus 10 Details</h2>
-      <button class="sec-button" onclick="showSection('mobiles')">Back to Mobiles</button>
-    </div>
-    <div class="product-details">
-      <img src="imgs/phone.png" alt="OnePlus 10">
-      <div class="details">
-        <p>Price: $749</p>
-        <p>Storage: 128GB, 256GB</p>
-        <p>Battery: 4500mAh</p>
-        <p>Ratings: ⭐⭐⭐⭐ (4.5/5)</p>
-        <p>Description: OnePlus 10 offers top-tier performance with Snapdragon 888, 120Hz AMOLED display, and 65W fast charging.</p>
-        <button class="add-to-cart">Add to Cart</button>
-        <button class="buy-now">Buy Now</button>
-      </div>
-    </div>
-  </section>
-
-
+  <script src="main.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

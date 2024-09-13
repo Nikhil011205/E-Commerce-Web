@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT * FROM ecommerce.products
+LIMIT 0, 1000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="product_id">1</field>
+		<field name="name">Samsung Galaxy S21</field>
+		<field name="description">Latest Samsung Galaxy S21 with Exynos 2100 chip.</field>
+		<field name="price">799.00</field>
+		<field name="stock">60</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1To5mgL3Pe0wy1133FL7MbS_7SR5LuCIQ</field>
+		<field name="category_id">1</field>
+	</row>
+
+	<row>
+		<field name="product_id">2</field>
+		<field name="name">Google Pixel 6</field>
+		<field name="description">Google Pixel 6 with Tensor chip and 5G support.</field>
+		<field name="price">599.00</field>
+		<field name="stock">75</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1ngukn0T9_O-lQoUMMsZkFp7NNcEVcUF7</field>
+		<field name="category_id">1</field>
+	</row>
+
+	<row>
+		<field name="product_id">3</field>
+		<field name="name">Xiaomi Mi 11</field>
+		<field name="description">Xiaomi Mi 11 with Snapdragon 888 and AMOLED display.</field>
+		<field name="price">699.00</field>
+		<field name="stock">80</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1bhSqmC8rHu7-Pi62G-Mg9j7ELayqRDnb</field>
+		<field name="category_id">1</field>
+	</row>
+
+	<row>
+		<field name="product_id">4</field>
+		<field name="name">Sony Xperia 5</field>
+		<field name="description">Sony Xperia 5 with OLED display and triple camera system.</field>
+		<field name="price">849.00</field>
+		<field name="stock">40</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1qisnYG2F46YNikGZvuPfu-P_bjuy_uLK</field>
+		<field name="category_id">1</field>
+	</row>
+
+	<row>
+		<field name="product_id">5</field>
+		<field name="name">OnePlus Nord 2</field>
+		<field name="description">OnePlus Nord 2 with Dimensity 1200 and 5G connectivity.</field>
+		<field name="price">499.00</field>
+		<field name="stock">90</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1sqwng2AXuNluNkMVU0XEPnTdOHgEbKl9</field>
+		<field name="category_id">1</field>
+	</row>
+
+	<row>
+		<field name="product_id">6</field>
+		<field name="name">Dell XPS 13</field>
+		<field name="description">Dell XPS 13 with Intel i7 and 16GB RAM.</field>
+		<field name="price">999.00</field>
+		<field name="stock">30</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1BVdQ3vGou3kxv0NlsPY1PBLaa4_Vhrr4</field>
+		<field name="category_id">2</field>
+	</row>
+
+	<row>
+		<field name="product_id">7</field>
+		<field name="name">MacBook Pro 16</field>
+		<field name="description">MacBook Pro 16 with M1 Pro chip and 32GB RAM.</field>
+		<field name="price">2399.00</field>
+		<field name="stock">20</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=10wVqQ_C5NIBT8B5cEJDezhMsNu35m_-c</field>
+		<field name="category_id">2</field>
+	</row>
+
+	<row>
+		<field name="product_id">8</field>
+		<field name="name">HP Spectre x360</field>
+		<field name="description">HP Spectre x360 with Intel i5 and 8GB RAM.</field>
+		<field name="price">1199.00</field>
+		<field name="stock">25</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1Rxb4-wJmPzAUaxt_lF2TmP6gLjrsnmRl</field>
+		<field name="category_id">2</field>
+	</row>
+
+	<row>
+		<field name="product_id">9</field>
+		<field name="name">Lenovo ThinkPad X1</field>
+		<field name="description">Lenovo ThinkPad X1 with Intel i7 and 16GB RAM.</field>
+		<field name="price">1299.00</field>
+		<field name="stock">35</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1aqcwJO0endyljNv8CLk-7950fWU8Yo6t</field>
+		<field name="category_id">2</field>
+	</row>
+
+	<row>
+		<field name="product_id">10</field>
+		<field name="name">Asus ZenBook 14</field>
+		<field name="description">Asus ZenBook 14 with Ryzen 7 and 16GB RAM.</field>
+		<field name="price">899.00</field>
+		<field name="stock">40</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=120fx99od5vNgNC1ySqUNokOeIgk5Oiga</field>
+		<field name="category_id">2</field>
+	</row>
+
+	<row>
+		<field name="product_id">11</field>
+		<field name="name">Men's T-Shirt</field>
+		<field name="description">Comfortable cotton t-shirt for men.</field>
+		<field name="price">19.99</field>
+		<field name="stock">100</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1c3zN3hPqKa6hla0WA0BRS2dGwO8zWP3L</field>
+		<field name="category_id">3</field>
+	</row>
+
+	<row>
+		<field name="product_id">12</field>
+		<field name="name">Women's Dress</field>
+		<field name="description">Elegant dress for women, available in various sizes.</field>
+		<field name="price">49.99</field>
+		<field name="stock">60</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1VX9tJnvFPZRNXR9VS5VuTytzhZU-JO8r</field>
+		<field name="category_id">3</field>
+	</row>
+
+	<row>
+		<field name="product_id">13</field>
+		<field name="name">Hoodie</field>
+		<field name="description">Warm hoodie for all seasons.</field>
+		<field name="price">39.99</field>
+		<field name="stock">75</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1CBdWHqbWGH0s3dtQBMSapAkygjyb32P4</field>
+		<field name="category_id">3</field>
+	</row>
+
+	<row>
+		<field name="product_id">14</field>
+		<field name="name">Jeans</field>
+		<field name="description">Stylish denim jeans, available in different fits.</field>
+		<field name="price">29.99</field>
+		<field name="stock">80</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1cIFOzqlvELy_yrF0aczrSlbPOFlCBaJH</field>
+		<field name="category_id">3</field>
+	</row>
+
+	<row>
+		<field name="product_id">15</field>
+		<field name="name">Jacket</field>
+		<field name="description">Weather-resistant jacket for casual wear.</field>
+		<field name="price">59.99</field>
+		<field name="stock">50</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1wVqY6CS5GbeOKCQ6bDXq502hT6LfFwhM</field>
+		<field name="category_id">3</field>
+	</row>
+
+	<row>
+		<field name="product_id">16</field>
+		<field name="name">Wireless Earbuds</field>
+		<field name="description">Bluetooth wireless earbuds with noise cancellation.</field>
+		<field name="price">99.99</field>
+		<field name="stock">120</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1z_g3n6Utnnq9tHyKVzfO1YTDdY6euZt9</field>
+		<field name="category_id">4</field>
+	</row>
+
+	<row>
+		<field name="product_id">17</field>
+		<field name="name">Smartwatch</field>
+		<field name="description">Smartwatch with fitness tracking and notifications.</field>
+		<field name="price">149.99</field>
+		<field name="stock">90</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1ifQBjWmTM4hmdjB7Wie5N3GeHyzAEBGv</field>
+		<field name="category_id">4</field>
+	</row>
+
+	<row>
+		<field name="product_id">18</field>
+		<field name="name">Phone Case</field>
+		<field name="description">Protective phone case for various models.</field>
+		<field name="price">19.99</field>
+		<field name="stock">200</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1xIAnhz91bdBvPiBaRAF7wI0DnMLoySoY</field>
+		<field name="category_id">4</field>
+	</row>
+
+	<row>
+		<field name="product_id">19</field>
+		<field name="name">Bluetooth Speaker</field>
+		<field name="description">Portable Bluetooth speaker with high sound quality.</field>
+		<field name="price">79.99</field>
+		<field name="stock">110</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1EjPVm2bA5cO80sollMrFQeHOzmEYTo-T</field>
+		<field name="category_id">4</field>
+	</row>
+
+	<row>
+		<field name="product_id">20</field>
+		<field name="name">Laptop Bag</field>
+		<field name="description">Durable laptop bag with compartments.</field>
+		<field name="price">39.99</field>
+		<field name="stock">70</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1LibwEAPUp8FjVUXGQx7djFM_-0GZb3EP</field>
+		<field name="category_id">4</field>
+	</row>
+
+	<row>
+		<field name="product_id">21</field>
+		<field name="name">Cordless Drill</field>
+		<field name="description">High-power cordless drill with multiple accessories.</field>
+		<field name="price">89.99</field>
+		<field name="stock">50</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1d3AcpGBu7JgmXtHBpnNuvIUchDK7hPd1</field>
+		<field name="category_id">5</field>
+	</row>
+
+	<row>
+		<field name="product_id">22</field>
+		<field name="name">Laser level</field>
+		<field name="description">Highly precise Laser level to calculate the imbalances of the surface.</field>
+		<field name="price">29.99</field>
+		<field name="stock">75</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1HZG9vDDcfBTl4ivrwA4zrshGV7HSn8jL</field>
+		<field name="category_id">5</field>
+	</row>
+
+	<row>
+		<field name="product_id">23</field>
+		<field name="name">Circular saw</field>
+		<field name="description">Heavy-duty circular saw for various tasks.</field>
+		<field name="price">15.99</field>
+		<field name="stock">100</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1ikkUUlB9FPm5ma3kcae1-yTJab0_rUnd</field>
+		<field name="category_id">5</field>
+	</row>
+
+	<row>
+		<field name="product_id">24</field>
+		<field name="name">Tool set</field>
+		<field name="description">Tools for all use cases in one box.</field>
+		<field name="price">12.99</field>
+		<field name="stock">150</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1rxkHF9YMilLy3-Ag8Ni7dueRI8UA_o47</field>
+		<field name="category_id">5</field>
+	</row>
+
+	<row>
+		<field name="product_id">25</field>
+		<field name="name">Impact Wrench</field>
+		<field name="description">Complete wrench set with various setting levels.</field>
+		<field name="price">49.99</field>
+		<field name="stock">60</field>
+		<field name="image_url">https://drive.google.com/thumbnail?id=1XbvuG1plXI79OXGNEXm3p89k2PvaAKyW</field>
+		<field name="category_id">5</field>
+	</row>
+</resultset>
