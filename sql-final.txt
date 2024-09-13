@@ -14,7 +14,7 @@ CREATE TABLE categories (
 CREATE TABLE products (
     product_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
-    description TEXT,
+    description TEXT,use 
     price DECIMAL(10, 2),
     stock INT,
     image_url VARCHAR(255),
@@ -25,11 +25,11 @@ CREATE TABLE products (
 -- 5. Insert category data
 INSERT INTO categories (name,img_url)
 VALUES 
-('Mobiles','https://drive.google.com/thumbnail?id=1xeUNzYeuKhsAiD-8ObhxFLjgWtlPQAt_'),
+('Mobiles','https://drive.google.com/thumbnail?id=1vDucpd99N2oSp_9FysxHj9ehJxwrGhYn'),
 ('Laptops','https://drive.google.com/thumbnail?id=1aCGHs5ER3rair65VUvYfpzqSvn45UZck'),
-('Clothing','https://drive.google.com/thumbnail?id=1Q4y8P9Ij9nqJ6IoN4mg1imNgUtK3Y9Na'),
-('Accessories','https://drive.google.com/thumbnail?id=1vB7bzlA4LEBbPzs4hbaEen1KWfheQ17l'),
-('Tools','https://drive.google.com/thumbnail?id=1v728jaZlgujC07ozUUtXpWyoQ3ou7B7M');
+('Clothing','https://drive.google.com/thumbnail?id=1uTncUAOwUBTwqb2g7vrwbSNLGkjJ55t5'),
+('Accessories','https://drive.google.com/thumbnail?id=1eX2nSv2Kjy5LNtgc0ubsUSG-GD8dDxJS'),
+('Tools','https://drive.google.com/thumbnail?id=1GvdZbo6Mtvp7lUEqUoDSzYzq8dSON2UT');
 
 
 
