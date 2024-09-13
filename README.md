@@ -3,6 +3,7 @@ How to execute it :
 1) Run the sql text file, paste it in your sql terminal except the last part
 2) run the spring boot app
 3) run the index.html file
+   
 A completely scalable website made using HTMl, CSS, Javascript, MySQL, Java SpringBoot
 
 Just by the updation of the database the effects will be shown in realtime website
